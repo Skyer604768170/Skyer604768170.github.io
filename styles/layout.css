@@ -1,0 +1,88 @@
+/*
+layout.css 控制整体布局
+*/
+section,header,article,nav,footer{
+	display: block;
+}
+body,header,article,section,nav,footer,img,ul,li,h1,p{
+	padding: 0;
+	margin: 0;
+}
+body{	
+	margin: 1em 10%;
+	max-width: 80em;
+}
+#home header{
+	background-image: url(../images/index.gif);
+}
+#about header{
+	background-image: url(../images/about.gif);
+}
+#photos header{
+	background-image: url(../images/photos.gif);
+}
+#live header{
+	background-image: url(../images/live.gif);
+}
+#contact header{
+	background-image: url(../images/contact.gif);
+}
+header{
+	border: .1em solid;
+	border-bottom-width: 0;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+header nav{
+	border: .1em solid;
+	border-bottom-width: 0;
+	border-top-width: 0;
+	padding-left: 10%;
+}
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+	border-left: .1em solid;
+}
+header nav li{
+	display: inline;
+}
+header nav li a{
+	display: block;
+	float: left;
+	padding: .5em 2em;
+	border-right: .1em solid;
+}
+article{
+	border: .1em solid;
+	border-top-width: 0;
+	padding: 2em 10%;
+	line-height: 1.8em;
+}
+article img{
+	border: .1em solid;
+	outline: .1em solid;
+}
+#slideshow{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+}
+#preview{
+	position: absolute;
+	border-width: 0;
+	outline-width: 0;
+}
+#imagegallery li{
+	display: inline;
+}td{
+	padding: .5em 3em;
+}
+footer{
+	background: #ccc;
+	padding: 50px;
+}
+footer p{
+	margin-bottom: 10px;
+}

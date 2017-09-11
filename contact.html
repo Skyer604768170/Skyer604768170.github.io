@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>html5写的简单个人/公司网站</title>
+	<title>联系我们-jsdom编程-网站例子</title>
 	<script type="text/javascript" src="scripts/modernizr.custom.04187.js"></script>
 	<script type="text/javascript" src="scripts/global.js"></script>
 	<link rel="stylesheet" href="styles/basic.css">
@@ -21,8 +21,19 @@
 		</nav>
 	</header>
 	<article>
-		<h1>Welcome</h1>
-		<p id="intro">欢迎来到我的 <a href="index.html" title="Home">博客</a>网站，你可以 <a href="about.html" title="About">查看网站简介</a>，看我们的 <a href="photos.html" title="Photos">产品</a>，看一些我的 <a href="live.html" title="Tour Date">最新动态</a>，同时你可以 <a href="contact.html" title="Contact">联系我们</a></p>
+		<h1>contact me</h1>
+		<form action="">
+			<fieldset>
+				<p><label for="name">Name:</label>
+					<input type="text" id="name" name="name" placeholder='your Name' required='required'></p>
+				<p><label for="email">Email:</label>
+					<input type="email" id="email" name="email" placeholder='your Email' required='required'></p>
+				<p><label for="message">Message:</label>
+					<textarea name="message" id="message" cols="45" rows="7" required="required" placeholder='write massege'></textarea>
+				</p>
+				<input type="submit" value="Send">
+			</fieldset>
+		</form>
 	</article>
 	<footer>
 		<p>

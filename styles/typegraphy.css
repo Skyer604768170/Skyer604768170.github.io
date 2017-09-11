@@ -1,0 +1,40 @@
+/*
+typegraphy.css 控制整体板式
+*/
+body{
+	font: 76% "Arial", "Helvetica", sans-serif;
+}
+body *{
+	font-size: 1em;
+}
+a{
+	font-weight: bold;
+	text-decoration: none;
+}
+header nav{
+	font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+}
+header nav a{
+	font-weight: bold;
+	text-decoration: none;
+}
+article p{
+	margin: 1em 0;
+}
+h1{
+	font: normal 2.4em Georgia,"Times New Roman",sans-serif; 
+}
+h2{
+	font: normal 1.8em Georgia,"Times New Roman",sans-serif; 
+	margin-top: 1em;
+}
+h3{
+	font: normal 1.4em Georgia,"Times New Roman",sans-serif; 
+	margin-top: 1em;
+}
+#imagegallery li{
+	list-style-type: none;
+}
+textarea{
+	font-family:Helvetica,Arial,sans-serif;
+}
