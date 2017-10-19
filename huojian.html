@@ -18,8 +18,19 @@
 		</nav>
 	</header>
 	<article>
-		<p>zzzzzzzzzzzzzzzzzzzzzzzzzz</p>
-		<img src = "4.jpg" width = "300" height = "400"/>
+		<p id = "demo"> 我在学习JS </p>
+		<button type="button" onclick="alert('Welcome!')">button1</button>
+		<button type="button" onclick= "myFunction()">button2</button>
+		<script>
+		function myFunction(){
+			x=document.getElementById("demo");
+			x.innerHTML="HELLO!";
+		}
+		</script>
+	
 	</article>
+	
+
+	
 </body>
 </html>
