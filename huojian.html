@@ -9,7 +9,7 @@
 	<header>
 		<nav>
 			<ul >
-				<li><a href="index.html">首页</a></li>
+				<li><a href="indey.html">首页</a></li>
 				<li><a href="zhouerke.html">周二珂</a></li>
 				<li><a href="daily.html">我准备在这里写日志</a></li>
 				<li><a href="contact.html">并不能联系到我</a></li>
@@ -18,19 +18,52 @@
 		</nav>
 	</header>
 	<article>
-		<p id = "demo"> 我在学习JS </p>
-		<button type="button" onclick="alert('Welcome!')">button1</button>
-		<button type="button" onclick= "myFunction()">button2</button>
-		<script>
-		function myFunction(){
-			x=document.getElementById("demo");
-			x.innerHTML="HELLO!";
-		}
-		</script>
-	
-	</article>
-	
 
-	
+	<p>学习JS：</p>
+
+	<button onclick="myFunction()">今天周几</button>
+	<button type="button" onclick="alert('Welcome!')">Welcome</button>
+	<p id="demo"></p>
+
+	<script>
+
+	function myFunction()
+	{
+		var x;
+		var d=new Date().getDay();
+		switch (d)
+		  {
+		  case 0:
+		    x="Today it's Sunday";
+		    break;
+		  case 1:
+		    x="Today it's Monday";
+		    break;
+		  case 2:
+		    x="Today it's Tuesday";
+		    break;
+		  case 3:
+		    x="Today it's Wednesday";
+		    break;
+		  case 4:
+		    x="Today it's Thursday";
+		    break;
+		  case 5:
+		    x="Today it's Friday";
+		    break;
+		  case 6:
+		    x="Today it's Saturday";
+		    break;
+		  }
+		document.getElementById("demo").innerHTML=x;
+
+
+	}
+	</script>
+
+	</article>
+
+
+
 </body>
 </html>
