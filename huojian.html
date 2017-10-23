@@ -27,6 +27,13 @@
 
 	<script>
 
+	function Click(){
+		if(event.button == 2){
+			window.alert("you can not use your right key");
+		}
+	}
+	document.onmousedown = Click;
+	
 	function myFunction()
 	{
 		var x;
