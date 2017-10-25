@@ -19,12 +19,12 @@
 	</header>
 	<article>
 
-	<p>学习JS：</p>
+	<p>学习JS</p>
 
-	<button onclick="myFunction()">今天周几</button>
+	<!--button onclick="myFunction()">今天周几</button-->
 	<button type="button" onclick="alert('Welcome!')">Welcome</button>
+	<h1 onclick = "this.innerHTML='thank you'">click here</h1>
 	<p id="demo"></p>
-
 	<script>
 
 	function Click(){
@@ -33,7 +33,7 @@
 		}
 	}
 	document.onmousedown = Click;
-	
+/*	
 	function myFunction()
 	{
 		var x;
@@ -63,9 +63,8 @@
 		    break;
 		  }
 		document.getElementById("demo").innerHTML=x;
-
-
-	}
+	}*/
+	document.write(Date());
 	</script>
 
 	</article>
